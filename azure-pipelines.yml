@@ -19,7 +19,7 @@ steps:
 - task: AzureResourceManagerTemplateDeployment@3
   inputs:
     deploymentScope: 'Resource Group'
-    azureResourceManagerConnection: 'devopsazureserviceconnection'
+    azureResourceManagerConnection: 'azdevopsserviceconnection'
     subscriptionId: '7218e9da-1d29-4917-b2eb-e2c7e5a75de7'
     action: 'Create Or Update Resource Group'
     resourceGroupName: 'devpiperm'
