@@ -12,7 +12,7 @@ pool:
 steps:
 - task: AzureKeyVault@2
   inputs:
-    azureSubscription: 'devopsazureserviceconnection'
+    azureSubscription: 'azdevopsserviceconnection'
     KeyVaultName: 'kaikonkey'
     SecretsFilter: 'pcadmin'
     RunAsPreJob: false
