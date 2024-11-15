@@ -7,7 +7,7 @@ trigger:
 - main
 
 pool:
-  vmImage: selfhostagent
+  vmImage: Azure Pipelines
 
 steps:
 - task: AzureKeyVault@2
